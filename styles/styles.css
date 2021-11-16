@@ -1,0 +1,21 @@
+header {
+  border: solid 3px green;
+
+  display: flex; 
+  justify-content: space-around;
+}
+
+#links-container {
+  border: solid 3px blue;
+
+  display: flex;
+  gap: 20px;
+}
+
+#about {
+  border: solid 3px red;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
