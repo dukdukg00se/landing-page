@@ -19,3 +19,25 @@ header {
   justify-content: space-around;
   align-items: center;
 }
+
+#showcase {
+  border: solid 3px blue;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#showcase-container {
+  border: solid 3px green;
+
+  display: flex;
+  
+}
+
+.works {
+  border: solid 2px blue;
+  border-radius: 15px;
+  height: 200px;
+  width: 200px;
+}
