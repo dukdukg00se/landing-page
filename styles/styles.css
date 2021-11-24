@@ -20,11 +20,13 @@ header {
   text-shadow: 1px 0 #f9faf8; /* Make text a little bigger */
   font-family: 'Hurricane', cursive;
   padding-top: 6px;
+  width: 40vmin;
 }
 #nav-block {
   padding: 10px;
   display: flex;
   gap: 20px;
+  width: 45vmin;
 }
 .nav-link {
   text-decoration: none;
@@ -32,19 +34,27 @@ header {
   color: #e5e7eb;
 }
 .nav-link:hover {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: bold;
 }
 .nav-link:active {
   color: #3882f6;
 }
 
-#about {
+
+#about-container {
   border: solid 3px red;
 
   display: flex;
   justify-content: space-around;
   align-items: center;
+  height: 30vmin;
+}
+#about {
+  width: 40vmin;
+}
+#img-container {
+  width: 45vmin;
 }
 
 
@@ -83,7 +93,7 @@ blockquote {
   color: #1f2937;
 
 }
-#inspire-quote {
+#philosophy {
   font-size: 20px;
   font-style: italic;
   font-weight: 100;
