@@ -9,26 +9,34 @@ body {
 }
 
 header {
-  border: solid 3px green;
-
   padding: 10px;
   display: flex; 
   justify-content: space-around;
   align-items: center;
 }
 #logo {
-  border: solid 3px yellow;
-
-  font-size: 38px;
-  font-weight: bold;
+  font-size: 50px;
+  font-weight: 900;
+  text-shadow: 1px 0 #f9faf8; /* Make text a little bigger */
   font-family: 'Hurricane', cursive;
   padding-top: 6px;
 }
 #nav-block {
-  border: solid 3px blue;
-
+  padding: 10px;
   display: flex;
   gap: 20px;
+}
+.nav-link {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.nav-link:hover {
+  font-size: 22px;
+  font-weight: bold;
+}
+.nav-link:active {
+  color: #3882f6;
 }
 
 #about {
@@ -39,19 +47,51 @@ header {
   align-items: center;
 }
 
+
 #showcase {
   border: solid 3px blue;
 
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #f9faf8;
+  padding-bottom: 30px;
 }
-
+#show-heading {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 800;
+  padding: 25px;
+}
 #showcase-container {
   border: solid 3px green;
 
   display: flex;
-  
+}
+.image-caption {
+  color: #1f2937;
+}
+
+
+#quote-container {
+  background-color: #e5e7eb;
+  padding: 100px;
+}
+blockquote {
+  width: 70%;
+  margin: auto;
+  color: #1f2937;
+
+}
+#inspire-quote {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+cite {
+  font-size: 20px;
+  font-weight: 900;
 }
 
 .works {
