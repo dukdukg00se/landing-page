@@ -141,16 +141,19 @@ blockquote {
   width: 70%;
   margin: auto;
   color: #1f2937;
-
+  display: flex;
+  flex-direction: column;
 }
 #philosophy {
-  font-size: 20px;
+  font-size: 24px;
   font-style: italic;
   font-weight: 100;
+  line-height: normal;
 }
 cite {
-  font-size: 20px;
-  font-weight: 900;
+  font-size: 18px;
+  font-weight: 700;
+  align-self: flex-end;
 }
 
 
